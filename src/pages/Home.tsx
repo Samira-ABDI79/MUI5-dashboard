@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import Analitycal from "./Analitycal";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         marginTop: "5.5rem",
       }}
     >
-      Home
+      <Analitycal />
     </Box>
   );
 }
